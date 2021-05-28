@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { render } from '@testing-library/react';
-
-import "antd/dist/antd.css";
 import { Table, Button, message } from 'antd';
+
 import PageLayout from '../../components/PageLayout';
 
 const { Column } = Table;
